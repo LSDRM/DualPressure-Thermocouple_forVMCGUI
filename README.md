@@ -3,7 +3,7 @@ A customized DAQ board through UART protocol, embeding two pressure sensors and 
 
 ## Hardware installation process
 1. Choose the standard you'll use between RS485 or RS422.
-   - I strongly recommend using the RS422 standard since the RS485 isn't optimal for this purpose, and the connectors provided by the schematic (micro USB board-to-wire) are not easy to handsolder. A USB-to-UART module have been provided under the RS422 standard, but still not tested at this date (15/04/2024).
+   - I strongly recommend using the RS422 standard since the RS485 isn't optimal for this purpose, the connectors provided by the schematic (micro USB board-to-wire) are not easy to handsolder, and the RS485 version isn't up to date. A USB-to-UART module have been provided under the RS422 standard, but still not tested at this date (15/04/2024).
 2. List the components you'll need to make the electronic boards
 
 ## Software installation process
