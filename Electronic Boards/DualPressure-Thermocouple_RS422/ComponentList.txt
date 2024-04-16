@@ -1,0 +1,27 @@
+Quantity	Name		Reference		Comment
+
+2		ABP2D		ABP2MANT010BAAA5XX	Absolute pressure sensors, up to 10 bar
+1		C0		MCVVT050M101FB3L	Capacitor 100uF
+1		C1		MCVVT010M102GB3L	Capacitor 1000uF
+1		C2		-----			Capacitor 1uF, 0603 footprint
+2		C3,C4		-----			Capacitor 10nF, 1206 footprint
+1		C5		-----			Capacitor 10uF, 1206 footprint
+8		D0 to D7	SK34A			Diode
+1		IC0		MAX3488EESA+		RS422 transceiver
+1		IC1		ADS122U04IPW		UART ADC
+1		J0		FC681477		DC connector, PCB mount
+1		J1		205338-0004		4 channels connector, to PCB
+1		J2		2-1445057-3		3 channels connector, to PCB
+1		L0		-----			Inductor 100uH, 0805 footprint
+2		R0,R10		-----			Resistor 120, 0805 footprint
+5		R1 to R5	-----			Resistor 47, 0805 footprint
+2		R6,R7		-----			Resistor 1M, 0805 footprint
+2		R8,R9		-----			Resistor 1k, 0805 footprint
+3		R11 to R13	-----			Resistor 200, 0805 footprint
+1		REG0		LM2576D2TR4-5G		Buck regulator 5V
+1		REG1		AP7333-33SAG-7		LDO regulator 3.3V
+1		U0		FMTC-CU-PCB		Thermocouple connector, copper-copper
+1		NS		1445022-3		3 channels connector, to wire
+3		NS		794606-1		Female crimp terminal, MATE-N-LOK
+1		NS		2053410204		4 channels connector, to wire
+4		NS		2053425028		Female crimp terminal, Pico-Lock
