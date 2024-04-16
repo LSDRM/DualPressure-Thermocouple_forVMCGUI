@@ -4,7 +4,7 @@ A customized DAQ board through UART protocol, embeding two pressure sensors and 
 ## Hardware installation process
 1. Choose the standard you'll use between RS485 or RS422.
    - I strongly recommend using the RS422 standard since the RS485 isn't optimal for this purpose, the connectors provided by the schematic (micro USB board-to-wire) are not easy to handsolder, and the RS485 version isn't up to date. A USB-to-UART module have been provided under the RS422 standard, but still not tested at this date (15/04/2024).
-2. You can find the _ComponentList.txt_ text file in the [RS422 folder](https://github.com/LSDRM/DualPressure-Thermocouple_forVMCGUI), where all the components needed can be found.
+2. You can find the _ComponentList.txt_ text file in the [RS422 folder](https://github.com/LSDRM/DualPressure-Thermocouple_forVMCGUI/tree/main/Electronic%20Boards/DualPressure-Thermocouple_RS422), where all the components needed can be found.
 3. Gerber files are given, so you can directly order the electronic board through a PCB manufacturer.
 4. When you receive 
 
