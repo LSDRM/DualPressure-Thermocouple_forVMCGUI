@@ -100,11 +100,18 @@ class KitWindow(MainWindow):
         return state
 
 
-    def get_measure(self, ID):
-        if ID == 0 or ID == 1:
-            self.get_pres(ID)
-        elif ID == 2:
-            self.get_temp(ID)
+    def get_measures(self, N):
+        sampleTime = datetime.timestamp(datetime.now()) + self.lineTimeOffset
+
+        for n in range(N):                  # This block works for both 1-by-1 and N-by-N modes.
+            self.time.append(sampleTime)
+            sampleTime += self.delayBetweenSamples
+
+            for ID in range(self.sensorsNumber):
+                if ID == 0 or ID == 1:
+                    self.get_pres(ID)
+                elif ID == 2:
+                    self.get_temp(ID)
 
 
     def get_pres(self, ABP):        # Each run of this function take 22 bytes on the line (14 write and 8 read)
